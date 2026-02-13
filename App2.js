@@ -51,7 +51,7 @@ async function main() {
     tool_choice: "auto",          
   });
 
-  // message.push(completion.choices[0].message)
+  message.push(completion.choices[0].message)
   // console.log(completion.choices[0])
   // console.log(completion.choices[0].message.content);
   // console.log(JSON.stringify(completion.choices[0].message.content));
